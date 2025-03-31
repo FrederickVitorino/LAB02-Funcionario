@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <title>LAB01 - Funcionario - Exercício 2</title>
+        </head>
+        
+        <body>
+            <form id="formulario">
+                <div>
+                    <label>Nome:</label>
+                    <input type="text" id="nome">
+                </div>
+
+                <div>
+                    <label>Idade:</label>
+                    <input type="number" id="idade" min="0" max="100">
+                </div>
+                
+                <div>
+                    <label>Cargo:</label>
+                    <input type="text" id="cargo">
+                </div>
+                
+                <div>
+                    <label>Salário:</label>
+                    <input type="number" id="salario">
+                </div>
+
+                <button id="cadastrar" type="button">Cadastrar</button>
+            </form>
+
+            <table id="tabela">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Idade</th>
+                        <th>Cargo</th>
+                        <th>Salário</th>
+                    </tr>
+                </thead>
+            </table> 
+
+            <div id="relatorios">
+                <div id="relListaNomes">
+                    <b>Lista de Nomes:</b>
+                    <span id="listaNomes"></span>
+                </div>
+
+                <div id="relListaCargos">
+                    <b>Lista de Cargos:</b>
+                    <span id="listaCargos"></span>
+                </div>
+
+                <div id="relMediaSalario">
+                    <b>Média de Salário:</b>
+                    <span id="mediaSalario"></span>
+                </div>
+
+                <div id="relSalarioMaior5000">
+                    <b>Funcionários com Salário maior que R$ 5000:</b>
+                    <span id="salarioMaior5000"></span>
+                </div>
+            </div>
+
+            <script src="script.js"></script>
+        </body>
+</html>

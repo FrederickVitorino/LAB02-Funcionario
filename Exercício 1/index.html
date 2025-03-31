@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <title>LAB01 - Funcionario - Exercício 2</title>
+        </head>
+        
+        <body>
+            <form id="formulario">
+                <div>
+                    <label>Nome:</label>
+                    <input type="text" id="nome">
+                </div>
+
+                <div>
+                    <label>Idade:</label>
+                    <input type="number" id="idade">
+                </div>
+                
+                <div>
+                    <label>Cargo:</label>
+                    <input type="text" id="cargo">
+                </div>
+                
+                <div>
+                    <label>Salário:</label>
+                    <input type="number" id="salario">
+                </div>
+            </form>
+
+            <button type="button" onclick="cadastrar()">Cadastrar</button>
+
+            <table id="tabela">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Idade</th>
+                        <th>Cargo</th>
+                        <th>Salário</th>
+                    </tr>
+                </thead>
+            </table> 
+            <script src="script.js"></script>
+        </body>
+</html>
